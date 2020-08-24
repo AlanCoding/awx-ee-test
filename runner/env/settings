@@ -1,0 +1,4 @@
+---
+container_image: quay.io/alancoding/awx-ee
+process_isolation_executable: docker
+process_isolation: true
