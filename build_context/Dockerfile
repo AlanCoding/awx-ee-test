@@ -1,4 +1,4 @@
-FROM quay.io/ansible/ansible-runner:devel
+FROM quay.io/alancoding/ansible-runner:devel
 
 RUN pip3 install --upgrade pip setuptools
 ADD requirements.yml /build/
