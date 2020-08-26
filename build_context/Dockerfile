@@ -1,4 +1,6 @@
-FROM quay.io/alancoding/ansible-runner:devel
+ARG TAG=devel
+
+FROM quay.io/alancoding/ansible-runner:${TAG}
 
 RUN pip3 install --upgrade pip setuptools
 ADD requirements.yml /build/
