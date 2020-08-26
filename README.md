@@ -24,7 +24,7 @@ Say you do not have `ansible-builder` installed, nor do you want it.
 You just want to build an image from what I already have.
 
 ```
-docker build --rm=true -f build_context/Dockerfile --build-arg TAG=$(2.9) -t quay.io/alancoding/awx-ee:2.9 build_context
+docker build --rm=true -f build_context/Dockerfile --build-arg TAG=2.9 -t quay.io/alancoding/awx-ee:2.9 build_context
 ```
 
 This will build a version with Ansible 2.9.
