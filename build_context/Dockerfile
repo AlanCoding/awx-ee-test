@@ -1,4 +1,4 @@
-ARG TAG=devel
+ARG TAG
 
 FROM quay.io/alancoding/ansible-runner:${TAG}
 
