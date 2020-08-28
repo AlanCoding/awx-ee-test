@@ -1,4 +1,5 @@
 at
+kubernetes-client
 libxml2-devel
 python3-libselinux
 python3-libsemanage

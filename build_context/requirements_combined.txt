@@ -11,6 +11,7 @@ pytz  # from collection awx.awx
 python-dateutil>=2.7.0  # from collection awx.awx
 awxkit  # from collection awx.awx
 packaging  # from collection azure.azcollection
+requests  # from collection azure.azcollection,google.cloud,theforeman.foreman
 xmltodict  # from collection azure.azcollection
 azure-cli-core==2.0.35  # from collection azure.azcollection
 azure-cli-nspkg==3.0.2  # from collection azure.azcollection
